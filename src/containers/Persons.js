@@ -4,9 +4,6 @@ import Person from '../components/Person/Person';
 import AddPerson from '../components/AddPerson/AddPerson';
 
 class Persons extends Component {
-    state = {
-        persons: []
-    }
 
     personAddedHandler = () => {
         const newPerson = {
